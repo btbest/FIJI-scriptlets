@@ -13,5 +13,6 @@ run("Images to Stack", "name=Stack title=[] use");
 //makeRectangle(213, 107, 934, 537);
 //run("Crop");
 
+//Edit the number behind set= to change to animation speed of the gif. The number is in microseconds (1000 => 1 frame per second).
 run("Animated Gif ... ", "name="+list[0]+".gif set_global_lookup_table_options=[Do not use] optional=[] image=[No Disposal] set=1000 number=0 transparency=[No Transparency] red=0 green=0 blue=0 index=0 filename=["+dir+"/"+list[0]+".gif]");
 close();
